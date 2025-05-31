@@ -67,7 +67,7 @@ st.set_page_config(page_title="Innovation Assistant 🤖", page_icon="🤖")
 st.title("Innovation Assistant 🤖👨🏻‍💻")
 
 # Website to scrape
-website_url = "https://b7-9414.github.io/Innovation_Tracker_KKESH-Frontend"
+website_url = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com/ideas"
 
 # Initialize session state
 if "chat_history" not in st.session_state:
