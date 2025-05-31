@@ -67,8 +67,8 @@ def get_response(user_input):
     return response['answer']
 
 # app config
-st.set_page_config(page_title="Bassam'AI Assistant", page_icon="🤖")
-st.title("Bassam'AI Assistant 👨🏻‍💻 🖥️")
+st.set_page_config(page_title="nnovation Assistant ", page_icon="🤖")
+st.title("nnovation Assistant 🤖👨🏻‍💻")
 
 # Define the website URL
 website_url = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com/ideas"
