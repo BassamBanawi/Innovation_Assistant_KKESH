@@ -73,12 +73,13 @@ st.title("Bassam'AI Assistant 👨🏻‍💻 🖥️")
 # Define the website URL
 website_url = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com/ideas"
 
-# session state
+# Initialize session state
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="Hello! Is there anything specific you'd like to know about Bassam qualifications ? "),
-        AIMessage(content="مرحبا! هل هناك أي شيء محدد تود معرفته عن مؤهلات بسام ؟"),
+        AIMessage(content="👋 Hello! I'm here to help you explore and understand the ideas presented on this site. Feel free to ask anything!"),
+        AIMessage(content="مرحبًا! هل لديك أي استفسارات أو مواضيع تحب مناقشتها حول الأفكار المطروحة في هذا الموقع؟ أنا هنا للمساعدة 😊"),
     ]
+
 if "vector_store" not in st.session_state:
     st.session_state.vector_store = get_vectorstore_from_url(website_url)    
 
