@@ -71,7 +71,7 @@ st.set_page_config(page_title="Bassam'AI Assistant", page_icon="🤖")
 st.title("Bassam'AI Assistant 👨🏻‍💻 🖥️")
 
 # Define the website URL
-website_url = "https://bassam.pro"
+website_url = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com/ideas"
 
 # session state
 if "chat_history" not in st.session_state:
